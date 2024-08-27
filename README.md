@@ -7,6 +7,7 @@
 **Version:** v0.1.0  
 **Platform:** Linux (Tested on Ubuntu)
 
+
 ## Features
 
 ### Basic Features
@@ -36,3 +37,20 @@
    ```bash
    git clone https://github.com/Keshav365/XenonLinux
    ./sysopctl --help
+
+2. **To Run**
+-- Save the Script: Save your script to a file. For example, name it **sysopctl.sh**.
+**chmod +x sysopctl.sh**
+-- Make the Script Executable: Open your terminal and navigate to the directory where you saved the script. 
+**./sysopctl.sh [command] [options]**
+- To display help: ./sysopctl.sh --help
+- To display version: ./sysopctl.sh --version
+- To list active services: ./sysopctl.sh service list
+- To start a service: ./sysopctl.sh service start <service-name>
+- To stop a service: ./sysopctl.sh service stop <service-name>
+- To show system load: ./sysopctl.sh system load
+- To show disk usage: ./sysopctl.sh disk usage
+- To monitor processes: ./sysopctl.sh process monitor
+- To analyze logs: ./sysopctl.sh logs analyze
+- To backup files: ./sysopctl.sh backup /path/to/directory
+
